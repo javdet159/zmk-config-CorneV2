@@ -137,7 +137,7 @@
             //                               '--------+---------+----------'       '--------+--------+---------'
 
             bindings = <
-&kp TAB    &none  &kp DQT  &kp AT_SIGN      &kp LPAR            &kp RPAR               &kp PAGE_UP    &kp AT_SIGN    &kp UP_ARROW    &none      &none    &none
+&kp TAB    &none  &kp DQT  &kp AT_SIGN      &kp LPAR            &kp RPAR               &kp PAGE_UP    &kp CARET      &kp UP_ARROW    &none      &none    &none
 &kp LSHFT  &none  &none    &kp EXCLAMATION  &kp LEFT_BRACKET    &kp RIGHT_BRACKET      &kp HOME       &kp LEFT       &mkp RCLK       &kp RIGHT  &kp END  &none
 &kp LCTRL  &none  &none    &kp AMPS         &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)    &kp PAGE_DOWN  &kp SEMICOLON  &kp DOWN_ARROW  &kp CARET  &none    &none
                            &kp LALT         &trans              &lt ADJ ENTER          &trans         &trans         &trans
