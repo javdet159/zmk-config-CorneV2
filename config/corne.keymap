@@ -116,10 +116,10 @@
             //                               '--------+---------+----------'       '--------+--------+---------'
 
             bindings = <
-&kp TAB    &trans  &trans  &trans    &kp PAGE_UP         &kp PAGE_DOWN          &kp LC(LEFT_ARROW)  &kp UP_ARROW    &kp LC(RIGHT)  &kp LPAR          &kp RPAR           &kp DQT
-&kp LSHFT  &trans  &trans  &trans    &kp HOME            &kp END                &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp EXCLAMATION
-&kp LCTRL  &trans  &trans  &trans    &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)    &kp C_PREV          &kp C_PP        &kp C_NEXT     &kp COMMA         &kp DOT            &kp BSLH
-                           &kp LALT  &trans              &lt ADJ ENTER          &trans              &trans          &trans
+&kp TAB    &trans  &trans  &kp DQT          &kp LPAR            &kp RPAR               &kp LC(HOME)  &kp PAGE_UP    &kp UP_ARROW    &trans     &trans               &trans
+&kp LSHFT  &trans  &trans  &kp EXCLAMATION  &kp LEFT_BRACKET    &kp RIGHT_BRACKET      &kp LC(LEFT)  &kp LEFT       &kp DOWN_ARROW  &kp RIGHT  &kp LC(RIGHT_ARROW)  &trans
+&kp LCTRL  &trans  &trans  &kp QUESTION     &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)    &kp LC(END)   &kp PAGE_DOWN  &kp DOT         &kp COMMA  &kp BSLH             &kp SLASH
+                           &kp LALT         &trans              &lt ADJ ENTER          &trans        &trans         &trans
             >;
         };
 
