@@ -59,6 +59,16 @@
             key-positions = <30 31>;
             bindings = <&kp DEL>;
         };
+
+        Ctrl_Left {
+            bindings = <&kp LC(LEFT_ARROW)>;
+            key-positions = <19 20>;
+        };
+
+        Ctrl-Right {
+            bindings = <&kp LC(RIGHT_ARROW)>;
+            key-positions = <20 21>;
+        };
     };
 };
 
@@ -116,10 +126,10 @@
             //                               '--------+---------+----------'       '--------+--------+---------'
 
             bindings = <
-&kp TAB    &trans  &trans  &kp DQT          &kp LPAR            &kp RPAR               &kp LC(HOME)  &kp PAGE_UP    &kp UP_ARROW    &trans     &trans               &trans
-&kp LSHFT  &trans  &trans  &kp EXCLAMATION  &kp LEFT_BRACKET    &kp RIGHT_BRACKET      &kp LC(LEFT)  &kp LEFT       &kp DOWN_ARROW  &kp RIGHT  &kp LC(RIGHT_ARROW)  &trans
-&kp LCTRL  &trans  &trans  &kp QUESTION     &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)    &kp LC(END)   &kp PAGE_DOWN  &kp DOT         &kp COMMA  &kp BSLH             &kp SLASH
-                           &kp LALT         &trans              &lt ADJ ENTER          &trans        &trans         &trans
+&kp TAB    &trans  &kp DQT  &kp DOUBLE_QUOTES  &kp LPAR            &kp RPAR               &kp HOME      &kp PAGE_UP    &kp UP_ARROW    &kp LC(HOME)  &kp FSLH             &kp BSLH
+&kp LSHFT  &trans  &trans   &kp EXCLAMATION    &kp LEFT_BRACKET    &kp RIGHT_BRACKET      &kp LC(LEFT)  &kp LEFT       &kp DOWN_ARROW  &kp RIGHT     &kp LC(RIGHT_ARROW)  &kp END
+&kp LCTRL  &trans  &trans   &kp QUESTION       &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)    &kp SLASH     &kp PAGE_DOWN  &kp DOT         &kp COMMA     &trans               &trans
+                            &kp LALT           &trans              &lt ADJ ENTER          &trans        &trans         &trans
             >;
         };
 
@@ -135,10 +145,10 @@
             //                             '--------+--------+--------'       '--------+--------+--------'
 
             bindings = <
-&kp F2     &kp KP_ASTERISK  &kp N1  &kp N2  &kp N3   &kp MINUS      &trans  &kp F1  &kp F2   &kp F3   &kp F4   &kp DEL
-&kp LSHFT  &kp KP_SLASH     &kp N4  &kp N5  &kp N6   &kp KP_PLUS    &trans  &kp F5  &kp F6   &kp F7   &kp F8   &kp GRAVE
-&kp LCTRL  &kp EQUAL        &kp N7  &kp N8  &kp N9   &kp KP_DOT     &trans  &kp F9  &kp F10  &kp F11  &kp F12  &kp BSLH
-                                    &kp N0  &mo ADJ  &trans         &trans  &trans  &trans
+&kp F2     &kp KP_ASTERISK  &kp N1  &kp N2  &kp N3   &kp MINUS      &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_MULTIPLY  &kp KP_DIVIDE
+&kp LSHFT  &kp KP_SLASH     &kp N4  &kp N5  &kp N6   &kp KP_PLUS    &kp DOT       &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp EQUAL        &trans
+&kp LCTRL  &kp EQUAL        &kp N7  &kp N8  &kp N9   &kp KP_DOT     &kp COMMA     &kp N7        &kp N8        &kp N9        &kp F12          &kp BSLH
+                                    &kp N0  &mo ADJ  &trans         &trans        &trans        &trans
             >;
         };
 
