@@ -138,7 +138,7 @@
 
             bindings = <
 &kp TAB    &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp AT_SIGN      &kp LPAR          &kp RPAR             &kp PAGE_UP    &kp CARET      &kp UP_ARROW    &mkp RCLK  &none    &none
-&kp LSHFT  &none             &none              &kp EXCLAMATION  &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &kp HOME       &kp LEFT       &none           &kp RIGHT  &kp END  &none
+&kp LSHFT  &none             &none              &kp EXCLAMATION  &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &kp HOME       &kp LEFT       &none           &kp RIGHT  &kp END  &kp GRAVE
 &kp LCTRL  &none             &none              &kp AMPS         &kp LEFT_BRACE    &kp RIGHT_BRACE      &kp PAGE_DOWN  &kp SEMICOLON  &kp DOWN_ARROW  &kp CARET  &none    &none
                                                 &kp LALT         &trans            &lt ADJ ENTER        &trans         &trans         &trans
             >;
